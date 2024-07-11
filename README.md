@@ -86,21 +86,21 @@ Contributions are welcome! Please fork the repository and use a feature branch. 
    ```bash
       git checkout -b feature/your-feature
 
-2. **Commit your changes:**
+3. **Commit your changes:**
 
    ```bash
    git commit -am 'Add some feature'
 
 
-3. **Commit your changes:**
+4. **Commit your changes:**
 
     ```bash
    git push origin feature/your-feature
 
-3. **Create a new Pull Request**
+5. **Create a new Pull Request**
 
 
-License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 
