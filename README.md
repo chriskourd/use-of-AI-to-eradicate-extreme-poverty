@@ -48,20 +48,18 @@ To use the notebooks in this repository, you need to have Python and the necessa
 
 4. **Activate the conda environment:** 
 
-```bash
+   ```bash
    conda activate spatial-env
 
 
 5. **Open Jupyter Notebook:**
-
-
-```bash
-jupyter-notebook
+   ```bash
+   jupyter-notebook
 
 6. **Navigate to the notebook you want to run and follow the instructions within each notebook.** 
-Navigate to the notebook you want to run and follow the instructions within each notebook.
 
-Notebooks
+
+## Notebooks
 1_rasters_reprojections_merging.ipynb:
 
 Focuses on raster reprojection and merging using libraries such as rasterio, geoio, and gdal.
@@ -74,6 +72,7 @@ Covers interpolation techniques and alignment of spatial data, focusing on metho
 4_modelling.ipynb:
 
 Demonstrates the process of building and evaluating models using the processed spatial data, with tools such as RandomForestRegressor and LinearRegression.
+
 Contributing
 Contributions are welcome! Please fork the repository and use a feature branch. Pull requests are reviewed on a regular basis.
 
