@@ -34,48 +34,6 @@ To use the notebooks in this repository, you need to have Python and the necessa
    ```bash
    git clone https://github.com/yourusername/spatial-data-processing.git
    cd spatial-data-processing
-
-
-Certainly! Here is the complete Markdown content incorporating all the detailed steps and instructions, ensuring everything is within one continuous Markdown code block:
-
-markdown
-Copy code
-# Spatial Data Processing and Analysis
-
-This repository contains a series of Jupyter Notebooks that detail a comprehensive workflow for spatial data processing, analysis, and modeling. The steps include raster reprojections, dataframe generation, interpolation, and modeling.
-
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Abstract](#abstract)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Notebooks](#notebooks)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Introduction
-
-This project is developed in the context of a thesis investigating the potential of integrating Artificial Intelligence (AI) and spatial datasets to predict and analyze poverty in Malawi. It aims to provide precise, actionable insights into poverty dynamics using advanced machine learning models and high-resolution data.
-
-## Abstract
-
-Eradicating extreme poverty remains one of the most pressing global challenges. This study investigates the potential of integrating Artificial Intelligence (AI) and spatial datasets to predict and analyze poverty in Malawi. By using advanced machine learning models and high-resolution data, this research aims to provide precise, actionable insights into poverty dynamics. The study focuses on using infrastructure-related datasets such as nightlights, roads, healthcare facilities, and built-up areas to predict poverty levels accurately.
-
-The methodology starts with data collection from diverse sources, including satellite data and socio-economic surveys. Key datasets include nightlights data reflecting economic activity, road density data indicating accessibility, healthcare facilities data providing health service locations, and built-up areas data distinguishing between urban and rural regions. The Integrated Household Panel Survey (IHPS) offers detailed socio-economic data for model validation. Data preprocessing ensures consistency and accuracy, involving cleaning, standardizing, merging, and reprojecting raster datasets to a common coordinate system. Interpolation techniques align the gap poor percentage data with the spatial datasets.
-
-In the model development phase, a Random Forest Regressor machine learning model is trained to identify patterns influencing poverty. The model's performance is evaluated using metrics such as Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and R² Score. Validation is achieved through cross-validation techniques and comparing model predictions against interpolated poverty data.
-
-Results demonstrate a strong predictive capability for poverty levels in Malawi, with high R² values indicating robust model performance (0.825). The correlation analysis reveals significant relationships between various infrastructure datasets and poverty levels, underscoring the relation between infrastructure and socio-economic conditions. The study highlights the scalability of AI-driven models, offering potential for broader application in other regions facing similar challenges and contributes to the broader field of AI for social good, demonstrating practical applications of AI in poverty eradication.
-
-## Installation
-
-To use the notebooks in this repository, you need to have Python and the necessary libraries installed. Follow the steps below to set up your environment.
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/yourusername/spatial-data-processing.git
-   cd spatial-data-processing
    
 2. **Create and activate a new conda environment:**
 
@@ -91,11 +49,11 @@ To use the notebooks in this repository, you need to have Python and the necessa
 4. **Activate the conda environment:** 
 
 ```bash
-conda activate spatial-env
+   conda activate spatial-env
 
 
-5. **Activate the conda environment:**
-Open Jupyter Notebook:
+5. **Open Jupyter Notebook:**
+
 
 ```bash
 jupyter-notebook
