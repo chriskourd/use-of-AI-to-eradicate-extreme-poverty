@@ -77,27 +77,30 @@ To use the notebooks in this repository, you need to have Python and the necessa
    git clone https://github.com/yourusername/spatial-data-processing.git
    cd spatial-data-processing
    
-1. **Create and activate a new conda environment:**
+2. **Create and activate a new conda environment:**
 
+   ```bash
+   conda create --name spatial-env python=3.11.9
+   conda activate spatial-env
+  
+3. **Install the required libraries:**
 
-conda create --name spatial-env python=3.11.9
+   ```bash
+   pip install -r requirements.txt
+
+4. **Activate the conda environment:** 
+
+```bash
 conda activate spatial-env
-Install the required libraries:
 
-bash
-Copy code
-pip install -r requirements.txt
-Usage
-Activate the conda environment:
 
-bash
-Copy code
-conda activate spatial-env
+5. **Activate the conda environment:**
 Open Jupyter Notebook:
 
-bash
-Copy code
+```bash
 jupyter-notebook
+
+6. **Navigate to the notebook you want to run and follow the instructions within each notebook.** 
 Navigate to the notebook you want to run and follow the instructions within each notebook.
 
 Notebooks
