@@ -73,30 +73,32 @@ Covers interpolation techniques and alignment of spatial data, focusing on metho
 
 Demonstrates the process of building and evaluating models using the processed spatial data, with tools such as RandomForestRegressor and LinearRegression.
 
-Contributing
+## Contributing
 Contributions are welcome! Please fork the repository and use a feature branch. Pull requests are reviewed on a regular basis.
 
-Fork it:
+1. ** Fork it:**
 
-bash
-Copy code
-https://github.com/yourusername/spatial-data-processing/fork
-Create your feature branch:
+   ```bash
+      https://github.com/yourusername/spatial-data-processing/fork
 
-bash
-Copy code
-git checkout -b feature/your-feature
-Commit your changes:
+2. **Create your feature branch:**
 
-bash
-Copy code
-git commit -am 'Add some feature'
-Push to the branch:
+   ```bash
+      git checkout -b feature/your-feature
 
-bash
-Copy code
-git push origin feature/your-feature
-Create a new Pull Request
+2. **Commit your changes:**
+
+   ```bash
+   git commit -am 'Add some feature'
+
+
+3. **Commit your changes:**
+
+    ```bash
+   git push origin feature/your-feature
+
+3. **Create a new Pull Request**
+
 
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
