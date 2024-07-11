@@ -56,7 +56,7 @@ Open Jupyter Notebook:
 bash
 Copy code
 jupyter-notebook
-Navigate to the notebook you want to run and follow the instructions within each notebook.
+**Navigate to the notebook you want to run and follow the instructions within each notebook.
 
 Notebooks
 1_rasters_reprojections_merging.ipynb:
